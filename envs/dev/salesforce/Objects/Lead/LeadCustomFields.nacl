@@ -94,11 +94,11 @@ type salesforce.Lead {
     caseSensitive = false
     queryable = true
   }
-
   salesforce.Number MyBigNumber__c {
     apiName = "Lead.MyBigNumber__c"
     precision = 2
     scale = 0
     label = "My Big Number"
   }
+
 }
